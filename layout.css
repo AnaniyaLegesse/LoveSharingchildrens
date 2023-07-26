@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.navbar{
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0%;
+    
+}
+
+#homepage{
+    width: 100%;
+    height: 100vh;
+    padding: 15% 5% 5% 8%;
+    color: white;
+    text-align: left;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.352), rgba(0, 0, 0, 0.352)), url("image/bg3.jpg") ;
+    background-repeat: none;
+    background-size:cover;
+    
+}
+#homepage h1{
+    font-size: 3rem; 
+}
+
+
+#aboutpage{
+    width: 100%;
+    padding: 5% 15%;
+    text-align: center;
+    line-height: 1.2rem;    
+}
+
+.profile_card{
+    border: none;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.profile_picture{
+    margin-left: 25%;
+    width: 50%;
+    height: 45%;
+    border-radius: 50%;
+
+}
+.members_pic{
+    padding: 0% 20%;
+}
+#sub-teams{
+    text-align: left;
+
+}
+
+
+.footer{
+    background-color: rgb(49, 47, 47);
+    color: white;
+    padding: 7% 3% 5% 3%;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: flex;
+}
+.icon{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+
+.quote{
+    width: 50%;
+    padding-left: 4%;    
+}
+.getstarted{
+    
+    background-image: linear-gradient(90deg,#8b62ff 0,#3b1bff);
+    color:white;
+    padding: 8px 12px;
+    text-decoration: none;
+    border: none;
+    
+}
+
+
+
+
+
+@media(max-width:600px){
+    #homepage{
+        padding: 0%;
+    }
+    .quote{
+        width: 100%;
+        padding: 40% 10%;
+        font-size: 1.3rem;
+        text-align: left;
+        margin: auto;
+    }
+    #aboutpage{
+        padding: 5% 10%;
+        text-align:left;
+    }
+
+}
+
+
